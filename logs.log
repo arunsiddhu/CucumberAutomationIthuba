@@ -1,0 +1,5 @@
+2020-03-01 13:18:51 [io.github.bonigarcia.wdm.WebDriverManager] INFO :: Using chromedriver 80.0.3987.106 (since Google Chrome 80 is installed in your machine)
+2020-03-01 13:18:51 [io.github.bonigarcia.wdm.WebDriverManager] INFO :: Reading https://chromedriver.storage.googleapis.com/ to seek chromedriver
+2020-03-01 13:18:53 [io.github.bonigarcia.wdm.Downloader] INFO :: Downloading https://chromedriver.storage.googleapis.com/80.0.3987.106/chromedriver_win32.zip
+2020-03-01 13:18:56 [io.github.bonigarcia.wdm.Downloader] INFO :: Extracting binary from compressed file chromedriver_win32.zip
+2020-03-01 13:18:56 [io.github.bonigarcia.wdm.WebDriverManager] INFO :: Exporting webdriver.chrome.driver as C:\Users\Ashish Meghwal\.m2\repository\webdriver\chromedriver\win32\80.0.3987.106\chromedriver.exe
