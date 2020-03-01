@@ -1,1 +1,11 @@
 /target/
+.classpath
+logs.log
+target/classes/META-INF/MANIFEST.MF
+target/cucumberreports.json
+target/ithubha-0.0.1-SNAPSHOT.jar
+target/maven-archiver/pom.properties
+target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst
+target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst
+target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/createdFiles.lst
+target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst
