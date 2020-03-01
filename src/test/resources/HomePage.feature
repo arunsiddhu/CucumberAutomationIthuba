@@ -1,4 +1,3 @@
-#Author: MrVaishnav
 @HomePage
 Feature: Reach to LottoWeaver HomePage
 

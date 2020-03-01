@@ -13,4 +13,3 @@ Feature: Login Page Setup Feature
     Examples: 
       | username   | Password | status  |
       | 0800123456 |    45321 | success |
-      | kuldeep    | kuldeep  | success |
