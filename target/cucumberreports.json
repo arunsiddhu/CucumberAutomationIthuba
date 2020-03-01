@@ -1,1 +1,190 @@
-[]
+[
+  {
+    "line": 2,
+    "elements": [
+      {
+        "line": 11,
+        "name": "Browser Launch and Reach Home Page",
+        "description": "",
+        "id": "reach-to-lottoweaver-homepage;browser-launch-and-reach-home-page;;2",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 5673579100,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "User Open Browser any particuler browser",
+            "match": {
+              "location": "HomePageSteps.user_Open_Browser_any_particuler_browser()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 18635469199,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "Enter the Url of Website",
+            "match": {
+              "location": "HomePageSteps.enter_the_Url_of_Website()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 36335200,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "Title Of Website is Ithuba National Lottery * Home",
+            "match": {
+              "location": "HomePageSteps.title_Of_Website_is_Ithuba_National_Lottery_Home()"
+            },
+            "matchedColumns": [
+              0
+            ],
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "line": 1,
+            "name": "@Ithuba"
+          },
+          {
+            "line": 3,
+            "name": "@ValidLogin"
+          },
+          {
+            "line": 1,
+            "name": "@HomePage"
+          }
+        ]
+      }
+    ],
+    "name": "Reach to LottoWeaver HomePage",
+    "description": "",
+    "id": "reach-to-lottoweaver-homepage",
+    "keyword": "Feature",
+    "uri": "HomePage.feature",
+    "tags": [
+      {
+        "line": 1,
+        "name": "@Ithuba"
+      },
+      {
+        "line": 1,
+        "name": "@HomePage"
+      }
+    ]
+  },
+  {
+    "line": 2,
+    "elements": [
+      {
+        "line": 13,
+        "name": "login to Website",
+        "description": "",
+        "id": "login-page-setup-feature;login-to-website;;2",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 15431514400,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "Navigate To LoginPage",
+            "match": {
+              "location": "LoginPageSteps.navigate_To_LoginPage()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 15220100,
+              "error_message": "org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {\"method\":\"xpath\",\"selector\":\"//*[@id\u003d\"userName_email\"]\"}\n  (Session info: chrome\u003d80.0.3987.122)\n  (Driver info: chromedriver\u003d80.0.3987.106 (f68069574609230cf9b635cd784cfb1bf81bb53a-refs/branch-heads/3987@{#882}),platform\u003dWindows NT 10.0.18363 x86_64) (WARNING: The server did not provide any stacktrace information)\nCommand duration or timeout: 13 milliseconds\nFor documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html\nBuild info: version: \u00272.53.0\u0027, revision: \u002735ae25b1534ae328c771e0856c93e187490ca824\u0027, time: \u00272016-03-15 10:43:46\u0027\nSystem info: host: \u0027LOVE-MSI\u0027, ip: \u0027192.168.73.2\u0027, os.name: \u0027Windows 10\u0027, os.arch: \u0027amd64\u0027, os.version: \u002710.0\u0027, java.version: \u002712.0.2\u0027\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCapabilities [{mobileEmulationEnabled\u003dfalse, timeouts\u003d{implicit\u003d0, pageLoad\u003d300000, script\u003d30000}, hasTouchScreen\u003dfalse, platform\u003dXP, acceptSslCerts\u003dfalse, goog:chromeOptions\u003d{debuggerAddress\u003dlocalhost:49270}, acceptInsecureCerts\u003dfalse, webStorageEnabled\u003dtrue, browserName\u003dchrome, takesScreenshot\u003dtrue, javascriptEnabled\u003dtrue, setWindowRect\u003dtrue, unexpectedAlertBehaviour\u003dignore, applicationCacheEnabled\u003dfalse, rotatable\u003dfalse, networkConnectionEnabled\u003dfalse, chrome\u003d{chromedriverVersion\u003d80.0.3987.106 (f68069574609230cf9b635cd784cfb1bf81bb53a-refs/branch-heads/3987@{#882}), userDataDir\u003dC:\\Users\\Aruns\\AppData\\Local\\Temp\\scoped_dir7892_2014593325}, takesHeapSnapshot\u003dtrue, pageLoadStrategy\u003dnormal, strictFileInteractability\u003dfalse, databaseEnabled\u003dfalse, handlesAlerts\u003dtrue, version\u003d80.0.3987.122, browserConnectionEnabled\u003dfalse, proxy\u003d{}, nativeEvents\u003dtrue, locationContextEnabled\u003dtrue, cssSelectorsEnabled\u003dtrue}]\nSession ID: 1681d88cf4ef227515d761c5127f1b35\n*** Element info: {Using\u003dxpath, value\u003d//*[@id\u003d\"userName_email\"]}\r\n\tat java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)\r\n\tat java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)\r\n\tat java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)\r\n\tat java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:500)\r\n\tat java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:481)\r\n\tat org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:206)\r\n\tat org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:158)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:678)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:363)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:500)\r\n\tat org.openqa.selenium.By$ByXPath.findElement(By.java:361)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:355)\r\n\tat ithuba.skilrock.common.CommonMethods.sendInput(CommonMethods.java:29)\r\n\tat ithuba.skilrock.pages.LoginPage.enterCredentials(LoginPage.java:47)\r\n\tat stepdefinition.LoginPageSteps.enter_Credentials(LoginPageSteps.java:22)\r\n\tat ✽.When Enter Credentials 0800123456 45321(LoginPage.feature:7)\r\n",
+              "status": "failed"
+            },
+            "line": 7,
+            "name": "Enter Credentials 0800123456 45321",
+            "match": {
+              "arguments": [
+                {
+                  "val": "0800123456",
+                  "offset": 18
+                },
+                {
+                  "val": "45321",
+                  "offset": 29
+                }
+              ],
+              "location": "LoginPageSteps.enter_Credentials(String,String)"
+            },
+            "matchedColumns": [
+              0,
+              1
+            ],
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 8,
+            "name": "Submit Login Button",
+            "match": {
+              "location": "LoginPageSteps.submit_Login_Button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 9,
+            "name": "Get Logout Button",
+            "match": {
+              "location": "LoginPageSteps.get_Logout_Button()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "line": 1,
+            "name": "@Ithuba"
+          },
+          {
+            "line": 4,
+            "name": "@ValidLogin"
+          },
+          {
+            "line": 1,
+            "name": "@LoginPage"
+          }
+        ]
+      }
+    ],
+    "name": "Login Page Setup Feature",
+    "description": "As a Tester want to use this template for my Login feature file",
+    "id": "login-page-setup-feature",
+    "keyword": "Feature",
+    "uri": "LoginPage.feature",
+    "tags": [
+      {
+        "line": 1,
+        "name": "@Ithuba"
+      },
+      {
+        "line": 1,
+        "name": "@LoginPage"
+      }
+    ]
+  }
+]
